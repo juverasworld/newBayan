@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+     <head>
+        <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title & Description -->
+  <title>Bay Royal International Ltd – Payments, Projects, Payroll & PEO Services in Africa</title>
+  <meta name="description" content="Bay Royal International offers Payments, Project Management, Payroll, and PEO/HR outsourcing services across Nigeria and Africa with professionalism and personalized support." />
+  <meta name="keywords" content="Bay Royal International, Payments services Nigeria, Project Management Africa, Payroll outsourcing Nigeria, PEO services, HR management Africa, Bay Royal" />
+  <meta name="author" content="Bay Royal International Limited" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.bayroyalinternational.com" />
+<!-- <link rel="stylesheet" href="/assets/css/styles.css"> -->
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bay Royal International Ltd – Payments, Projects, Payroll & PEO Services" />
+  <meta property="og:description" content="Delivering Payments, Project Management, Payroll & PEO services across Nigeria and Africa with expertise and integrity." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.bayroyalinternational.com" />
+  <meta property="og:image" content="https://www.bayroyalinternational.com/assets/images/new-logo.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bay Royal International – Payments, Projects, Payroll & PEO" />
+  <meta name="twitter:description" content="Your trusted partner in Payments, Projects, Payroll, and HR outsourcing across Africa." />
+  <meta name="twitter:image" content="https://www.bayroyalinternational.com/assets/images/new-logo.png" />
+
+  <!-- CSS here -->
+   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900,300i,400i,500i,700i,900i&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css" />
+   <link rel="stylesheet" href="assets/css/animate.css" />
+   <link rel="stylesheet" href="assets/css/solvior-icons.css" />
+   <link rel="stylesheet" href="assets/css/swiper.min.css" />
+   <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+   <link rel="stylesheet" href="assets/css/nice-select.css" />
+   <link rel="stylesheet" href="assets/css/venobox.min.css" />
+   <link rel="stylesheet" href="assets/css/meanmenu.css" />
+   <link rel="stylesheet" href="assets/css/main.css" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/themify-icons/1.0.0/css/themify-icons.css">
+   
+  <!-- Favicons & PWA -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#0A3B6F" />
+<style>
+            
+     /* Loading Screen Styles */
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 1;
+            visibility: visible;
+            transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .loading-screen.fade-out {
+            opacity: 0;
+            visibility: hidden;
+            transform: scale(0.95);
+        }
+
+        .loading-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, 
+                rgba(10, 11, 10, 1) 0%,
+                rgba(15, 15, 25, 1) 30%,
+                rgba(20, 20, 35, 1) 60%,
+                rgba(10, 11, 10, 1) 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 8s ease-in-out infinite;
+        }
+
+        .loading-background::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(
+                ellipse at center,
+                rgba(239, 230, 210, 0.03) 0%,
+                transparent 70%
+            );
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        .loading-content {
+            text-align: center;
+            z-index: 2;
+            position: relative;
+            max-width: 500px;
+            padding: 2rem;
+        }
+
+        .loading-logo {
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo-circle {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            border: 2px solid rgba(239, 230, 210, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: rotate 4s linear infinite;
+        }
+
+        .logo-circle::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            border-radius: 50%;
+            border: 2px solid transparent;
+            border-top-color: rgb(239, 230, 210);
+            border-right-color: rgba(239, 230, 210, 0.5);
+            animation: spin 2s linear infinite;
+        }
+
+        .logo-inner {
+            text-align: center;
+        }
+
+        .logo-text {
+            font-family: 'Satoshi', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: rgb(239, 230, 210);
+            display: block;
+            text-shadow: 0 0 20px rgba(239, 230, 210, 0.3);
+            animation: glow-pulse 2s ease-in-out infinite alternate;
+        }
+
+        .logo-subtitle {
+            font-family: 'Satoshi', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 300;
+            color: rgba(239, 230, 210, 0.7);
+            letter-spacing: 3px;
+            margin-top: 0.2rem;
+            text-transform: uppercase;
+        }
+
+        .loading-title h1 {
+            font-family: 'Satoshi', sans-serif;
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 700;
+            color: rgb(239, 230, 210);
+            margin: 0;
+            letter-spacing: 2px;
+            text-shadow: 0 0 30px rgba(239, 230, 210, 0.2);
+            animation: slideUp 1s ease-out 0.5s both;
+        }
+
+        .loading-title h2 {
+            font-family: 'Satoshi', sans-serif;
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            font-weight: 300;
+            color: rgba(239, 230, 210, 0.8);
+            margin: 0.5rem 0 2rem 0;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            animation: slideUp 1s ease-out 0.7s both;
+        }
+
+        .loading-progress {
+            margin: 2rem 0;
+            animation: slideUp 1s ease-out 0.9s both;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 2px;
+            background: rgba(239, 230, 210, 0.1);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .progress-bar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, 
+                transparent,
+                rgba(239, 230, 210, 0.3),
+                transparent);
+            animation: shimmer 2s ease-in-out infinite;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, 
+                rgb(239, 230, 210),
+                rgba(239, 230, 210, 0.8),
+                rgb(239, 230, 210));
+            border-radius: 2px;
+            width: 0%;
+            transition: width 0.3s ease;
+            box-shadow: 0 0 10px rgba(239, 230, 210, 0.5);
+        }
+
+        .progress-text {
+            font-family: 'Satoshi', sans-serif;
+            font-size: 0.9rem;
+            color: rgba(239, 230, 210, 0.7);
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .loading-tagline {
+            font-family: 'Satoshi', sans-serif;
+            font-size: 1rem;
+            color: rgba(239, 230, 210, 0.6);
+            font-weight: 300;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-top: 2rem;
+            animation: slideUp 1s ease-out 1.1s both;
+        }
+
+        .loading-particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .loading-particle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: radial-gradient(circle, rgba(239, 230, 210, 0.8), transparent);
+            border-radius: 50%;
+            animation: floatUp 8s linear infinite;
+        }
+
+        /* Animations */
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 0.6; transform: scale(1.02); }
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes glow-pulse {
+            from { 
+                text-shadow: 0 0 20px rgba(239, 230, 210, 0.3);
+                transform: scale(1);
+            }
+            to { 
+                text-shadow: 0 0 30px rgba(239, 230, 210, 0.6);
+                transform: scale(1.02);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.8;
+            }
+            90% {
+                opacity: 0.8;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Mobile Optimizations */
+        @media (max-width: 768px) {
+            .loading-content {
+                padding: 1rem;
+            }
+            
+            .logo-circle {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .logo-text {
+                font-size: 2rem;
+            }
+            
+            .loading-tagline {
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Demo content for after loading */
+        .main-content {
+            display: none;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-content.show {
+            display: flex;
+        }
+
+        .welcome-text {
+            font-size: 2rem;
+            opacity: 0;
+            animation: fadeIn 1s ease-out 0.5s both;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+</style>
+  <!-- Structured Data (JSON-LD for Organization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Bay Royal International Limited",
+    "url": "https://www.bayroyalinternational.com",
+    "logo": "https://www.bayroyalinternational.com/assets/images/new-logo.png",
+    "description": "Bay Royal International provides Payments, Project Management, Payroll, and PEO services across Nigeria and Africa with professionalism and personalized service.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6B Bendel Close, Victoria Island",
+      "addressLocality": "Lagos",
+      "addressCountry": "NG"
+    },
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+234-803-912-3546",
+      "contactType": "Customer Service",
+      "areaServed": "NG",
+      "availableLanguage": ["English"]
+    }],
+    "areaServed": ["Nigeria", "Ghana", "Kenya", "Uganda", "Mozambique", "South Africa"]
+  }
+  </script>
+</head>
+
+<body style="">
+
+   <div class="mouseCursor cursor-outer"></div>
+   <div class="mouseCursor cursor-inner"><span>Drag</span></div>
+  <div class="loading-screen" id="loadingScreen">
+        <div class="loading-background"></div>
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-circle">
+                    <div class="logo-inner">
+                        <span class="logo-text">BR</span>
+                        <div class="logo-subtitle">INTERNATIONAL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="loading-title">
+             <img src="/assets/images/new-logo.png" alt="" style="width: 60%; height: auto;"   decoding="async"
+  fetchpriority="high">
+            </div>
+            <div class="loading-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text">
+                    <span id="progressPercent">0</span>%
+                </div>
+            </div>
+            <div class="loading-tagline">
+                Excellence in Global Business
+            </div>
+        </div>
+        <div class="loading-particles" id="loadingParticles"></div>
+    </div>
+
+  <div class="hamburger-area d-lg-none" data-lenis-prevent>
+      <div class="hamburger_bg"></div>
+      <div class="hamburger_wrapper">
+         <div class="hamburger_top d-flex align-items-center justify-content-between">
+            <div class="hamburger_logo">
+               <a href="index.html" class="mobile_logo">
+                                   <img src="assets/images/new-logo.png" alt="logo">
+
+               </a>
+            </div>
+            <div class="hamburger_close">
+               <button class="hamburger_close_btn hamburgerCloseBtn"><i class="bi bi-x
+
+"></i></button>
+            </div>
+         </div>
+        
+
+         <div class="hamburger_menu">
+            <div class="mobile_menu"></div>
+         </div>
+
+         <div class="hamburger-infos">
+            <h4 class="hamburger-title">Contact info</h4>
+            <div class="contact-info">
+               <div class="contact_item">
+                  <span class="subtitle">Email</span>
+                  <div class="text"><a class="link" href="mailto:support@solvior.com">support@bayroyalInternational.com</a></div>
+               </div>
+               <div class="contact_item">
+                  <span class="subtitle">Phone</span>
+                  <div class="text"><a class="link" href="tel:000123456789">(000) 123 456 789</a></div>
+               </div>
+               <!-- <div class="contact_item">
+                  <span class="subtitle">Location</span>
+                  <div class="text">Santa, United State</div>
+               </div> -->
+            </div>
+         </div>
+         <div class="hamburger-socials">
+            <h4 class="hamburger-title">Follow us</h4>
+            <ul>
+               <li>
+                  <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+               </li>
+               <li>
+                  <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+               </li>
+               <li>
+                  <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!-- start: Header Area -->
+   <header class="tj-header-area header-1 header-absolute">
+      <div class="header-topbar">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <div class="header-topbar_wrap">
+
+                     <div class="topbar_note">
+                        <i class="bi bi-check
+
+"></i> Trusted partner in business excellence
+                        <a href="contact.html"><span>Join us now</span><i class="bi bi-check
+
+"></i></a>
+                     </div>
+
+                     <div class="topbar_infos">
+                        <div class="info_item">
+                           <span><i class="bi bi-clock
+
+"></i></span>
+                           <span>Mon - Friday : 9:00 - 18:00</span>
+                        </div>
+                        <div class="info_item">
+                           <span><i class="bi bi-envelope
+
+"></i></span>
+                           <a href="mailto:support@solvior.com">support@bayroyalInternational.com</a>
+                        </div>
+                     
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="header-bottom">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <div class="header-wrapper">
+
+                     <!-- logo -->
+                     <div class="site-logo">
+                        <a class="logo" href="index.html">
+                                                     <img src="assets/images/new-logo.png" alt="logo">
+
+                        </a>
+                     </div>
+
+                     <!-- main navigation -->
+                     <div class="mainmenu d-lg-block d-none" id="main-menu">
+                        <ul>
+                           <li class="">
+                              <a href="index.html">Home</a>
+                              
+                           </li>
+                           <li class="">
+                              <a href="service.html">Services</a>
+                              
+                           </li>
+                           
+                           <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                     </div>
+
+                     <div class="header_right_info d-none d-md-inline-flex">
+                        <!-- search btn -->
+                        <!-- <button class="header_search d-none d-lg-inline-flex">
+                           Explore
+                           <i class="bi bi-search
+
+"></i>
+                        </button> -->
+
+                        <!-- button -->
+                        <a href="contact.html" class="tj-primary-btn header_btn">
+                           <div class="btn_inner">
+                              <div class="btn_icon">
+                                 <span>
+                                    <i class="bi bi-arrow-right
+"></i>
+                                    <i class="bi bi-arrow-right
+"></i>
+                                 </span>
+                              </div>
+                              <div class="btn_text">
+                                 <span>Get a quote</span>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+
+                     <!-- menu bar -->
+                     <button class="menu_btn d-lg-none hamburgerBtn">
+                        Menu
+                        <span class="cubes">
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                        </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <header class="tj-header-area header-1 header-duplicate header-sticky">
+      <div class="header-bottom">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <div class="header-wrapper">
+
+                     <!-- logo -->
+                     <div class="site-logo">
+                        <a class="logo" href="index.html">
+                           <img src="assets/images/new-logo.png" alt="logo">
+                        </a>
+                     </div>
+
+                     <!-- main navigation -->
+                     <div class="mainmenu d-lg-block d-none">
+                        <ul>
+                           <li class="">
+                              <a href="index.html">Home</a>
+                             
+                           </li>
+                           <li class=" current-menu-ancestor">
+                              <a href="service.html">Services</a>
+                            
+                           </li>
+                         
+                           <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                     </div>
+
+                     <div class="header_right_info d-none d-md-inline-flex">
+                        <!-- search btn -->
+                        <!-- <button class="header_search d-none d-lg-inline-flex">
+                           Explore
+                           <i class="bi bi-search
+
+"></i>
+                        </button> -->
+
+                        <!-- button -->
+                        <a href="contact.html" class="tj-primary-btn header_btn">
+                           <div class="btn_inner">
+                              <div class="btn_icon">
+                                 <span>
+                                    <i class="bi bi-arrow-right
+"></i>
+                                    <i class="bi bi-arrow-right
+"></i>
+                                 </span>
+                              </div>
+                              <div class="btn_text">
+                                 <span>Get a quote</span>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+
+                     <!-- menu bar -->
+                     <button class="menu_btn d-lg-none hamburgerBtn">
+                        Menu
+                        <span class="cubes">
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                        </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end: Header Area -->
+
+<main id="primary" class="site-main"> 
+   <!-- start: Breadcrumb Section -->
+   <section class="tj-page-header" data-bg-image="assets/18851.jpg">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="tj-page-header-content text-center">
+                  <h1 class="tj-page-title text-anim">Payroll</h1>
+                  <div class="tj-page-link wow fadeInUp" data-wow-delay="0.1s">
+                     <span>
+                        <a href="index.html"><span>Home</span></a>
+                     </span>
+                     <span>/</span>
+                     <span><span>Payroll</span></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end: Breadcrumb Section -->
+
+   <!-- start: Service Section -->
+   <section class="tj-service-area section-space">
+      <div class="container">
+         <div class="row rg-50">
+            <div class="col-lg-8">
+               <div class="tj-post-wrapper">
+                  <div class="tj-post-single-post mb-0">
+                     <div class="tj-post-thumb hover:shine wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="assets/2149103955.jpg" alt="Payroll service image">
+                     </div>
+                     <h3 class="tj-post-title text-anim">
+                        Payroll Made Simple
+                     </h3>
+                     <div class="tj-entry-content">
+                        <p class="wow fadeInUp" data-wow-delay="0.1s">
+                           Payroll shouldn’t be complicated. We help businesses automate salary disbursement,
+                           tax deductions, and employee benefits—all while staying compliant with local and
+                           international regulations.
+                        </p>
+                        <div class="tj-check-list">
+                           <h4 class="text-anim">Service overview</h4>
+                           <p class="wow fadeInUp" data-wow-delay="0.1s">
+                              With automation and compliance at the core, our payroll service saves you time,
+                              reduces errors, and ensures your workforce gets paid accurately and on time.
+                           </p>
+                        </div>
+                        <div class="service-check-list mt-4 wow fadeInUp" data-wow-delay="0.3s">
+                           <ul>
+                              <li><i class="bi bi-check"></i><span>Automated salary processing</span></li>
+                              <li><i class="bi bi-check"></i><span>Tax & statutory compliance</span></li>
+                              <li><i class="bi bi-check"></i><span>Integration with HR systems</span></li>
+                              <li><i class="bi bi-check"></i><span>Cross-border salary distribution</span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <aside class="tj-service-sidebar">
+                  <div class="tj-sidebar-widget wow fadeInUp" data-wow-delay="0.1s">
+                     <h5 class="tj-sidebar-widget-title">Related service</h5>
+                     <div class="service-category">
+                        <ul>
+                           <li><a href="payment.html">Payments<i class="bi bi-chevron-right"></i></a></li>
+                           <li><a href="project.html">Projects<i class="bi bi-chevron-right"></i></a></li>
+                           <li><a class="active" href="payroll.html">Payroll<i class="bi bi-chevron-right"></i></a></li>
+                           <li><a href="peo.html">P.E.O<i class="bi bi-chevron-right"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="tj-sidebar-widget wow fadeInUp" data-wow-delay="0.1s">
+                     <div class="tj-sidebar-cta" data-bg-image="assets/18851.jpg">
+                        <div class="content">
+                           <div class="icon">
+                              <!-- <img src="assets/images/shapes/widget-cta-icon.png" alt="image"> -->
+                           </div>
+                           <h3>Need help? <br> Feel free contact us</h3>
+                           <p>Our mission is to empower businesses of all sizes.</p>
+                        </div>
+                        <div class="cta-btn">
+                           <a href="contact.html" class="tj-primary-btn white-btn">
+                              <div class="btn_inner">
+                                 <div class="btn_icon">
+                                    <span><i class="bi bi-arrow-right"></i><i class="bi bi-arrow-right"></i></span>
+                                 </div>
+                                 <div class="btn_text"><span>Get in touch</span></div>
+                              </div>
+                           </a>
+                           <img class="shapes move-anim-2" src="assets/images/carrow.png" alt="shape">
+                        </div>
+                     </div>
+                  </div>
+               </aside>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end: Service Section -->
+</main>
+
+
+
+   <!-- start: Footer Area -->
+   <footer class="tj-footer-area footer-2 style-2 h8-footer">
+  <div class="footer-top-area fix">
+    <div class="container">
+      <div class="row line rg-50">
+
+        <!-- Newsletter + Social -->
+        <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6">
+          <div class="footer-widget footer-newsletter-form h8-footer-newsletter-form">
+            <div class="newsletter-title">
+              <h3 class="title">Stay ahead with us</h3>
+              <p>Subscribe to get insights, strategies, and updates that power business excellence.</p>
+            </div>
+            <div class="newsletter-form">
+              <form>
+                <div class="form-input">
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required="">
+                  <button class="tj-footer-input-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+              </form>
+            </div>
+            <div class="footer-social">
+              <h5 class="title">Connect with us</h5>
+              <ul>
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+          <div class="footer-widget footer4-col-2 widget_nav_menu">
+            <div class="footer-title">
+              <h4 class="title">Our Services</h4>
+            </div>
+            <div class="widget-menu">
+              <ul>
+                <li><a href="payment.html">Payment</a></li>
+                <li><a href="payroll.html">Payroll</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="peo.html">PEO</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+
+              
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resources -->
+        <!-- <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-widget footer2-col-3 widget_nav_menu">
+            <div class="footer-title">
+              <h4 class="title">Resources</h4>
+            </div>
+            <div class="widget-menu">
+              <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+             
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Contact / Offices -->
+        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+  <div class="footer-widget footer-contact-infos">
+    <div class="footer-title">
+      <h4 class="title">Our Offices</h4>
+    </div>
+    <div class="infos-item">
+      <span>Nigeria – Lagos (HQ)</span>
+      <p>6b Bendel Close, Victoria Island, Lagos</p>
+      <a href="tel:+2348039123546">+234 803 912 3546</a>
+    </div>
+    <div class="infos-item">
+      <span>Nigeria – Abuja</span>
+      <p>22 Kumasi Crescent, Wuse 2, Abuja</p>
+      <a href="tel:+2348069126543">+234 806 912 6543</a>
+    </div>
+  
+</div>
+
+</div>
+<div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+<div class="footer-widget footer-contact-infos">
+
+<div class="infos-item">
+<span>Nigeria – Abuja</span>
+<p>22 Kumasi Crescent, Wuse 2, Abuja</p>
+<a href="tel:+2348069126543">+234 806 912 6543</a>
+</div>
+<div class="infos-item">
+<span>Ghana – Accra</span>
+<p>Regus Building, 5 Roman Road, Off Borstal Ave Lane</p>
+<a href="tel:+233541604192">+233 541 604 192</a>
+</div>
+<div class="infos-item">
+<span>Kenya – Nairobi</span>
+<p>Windsor House, University Way, Muindi Mbugu Street</p>
+</div>
+</div>
+</div>
+    </div>
+    <a class="backtop" href="#"><i class="bi bi-arrow-up"></i></a>
+  </div>
+
+  <!-- Copyright -->
+  <!-- <div class="footer-copyright-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="copyright-content-area">
+            <div class="copyright-text">
+              <p><i class="fa-solid fa-shield-check"></i> Bay Royal International Limited – Driving business excellence worldwide</p>
+            </div>
+            <div class="copyright-text">
+              <p>© 2025 <a href="#" target="_blank">Bay Royal International Limited</a>. All rights reserved.</p>
+            </div>
+            <div class="copyright-menu">
+              <ul>
+                <li><a href="privacy.html">Policy & Privacy</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</footer>
+   <!-- end: Footer Area -->
+  <script>
+        
+   let progress = 0;
+        const loadingScreen = document.getElementById('loadingScreen');
+        const progressFill = document.getElementById('progressFill');
+        const progressPercent = document.getElementById('progressPercent');
+        const loadingParticles = document.getElementById('loadingParticles');
+        const mainContent = document.getElementById('mainContent');
+
+        // Create loading particles
+        function createLoadingParticles() {
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'loading-particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 8 + 's';
+                particle.style.animationDuration = (Math.random() * 4 + 6) + 's';
+                loadingParticles.appendChild(particle);
+            }
+        }
+
+        // Simulate loading progress
+        function updateProgress() {
+            if (progress < 100) {
+                // Simulate realistic loading pattern
+                const increment = Math.random() * 15 + 5;
+                progress = Math.min(progress + increment, 100);
+                
+                progressFill.style.width = progress + '%';
+                progressPercent.textContent = Math.round(progress);
+                
+                // Vary the update interval for realistic feel
+                const delay = progress > 80 ? 200 : Math.random() * 200 + 100;
+                setTimeout(updateProgress, delay);
+            } else {
+                // Complete loading
+                setTimeout(() => {
+                    loadingScreen.classList.add('fade-out');
+                    
+                    // Show main content and remove loading screen after animation
+                    setTimeout(() => {
+                        loadingScreen.style.display = 'none';
+                        mainContent.classList.add('show');
+                    }, 1000);
+                }, 500);
+            }
+        }
+
+        // Initialize loading screen
+        createLoadingParticles();
+        
+        // Start loading simulation after a brief delay
+        setTimeout(() => {
+            updateProgress();
+        }, 800);
+
+        // Reduce particles on mobile for performance
+        if (window.innerWidth <= 768) {
+            const particles = document.querySelectorAll('.loading-particle');
+            particles.forEach((particle, index) => {
+                if (index > 15) particle.remove();
+            });
+        }
+    
+    </script>
+   <!-- JS here -->
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+   <script src="assets/js/gsap.min.js"></script>
+   <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+   <script src="assets/js/gsap-scroll-trigger.min.js"></script>
+   <script src="assets/js/gsap-split-text.min.js"></script>
+   <script src="assets/js/smooth-scroll.min.js"></script>
+
+   <script src="assets/js/appear.min.js"></script>
+   <script src="assets/js/wow.min.js"></script>
+   <script src="assets/js/odometer.min.js"></script>
+   <script src="assets/js/jquery-knob.js"></script>
+   <script src="assets/js/swiper.min.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/venobox.min.js"></script>
+   <script src="assets/js/meanmenu.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
