@@ -9,7 +9,7 @@
             box-sizing: border-box;
         }
 
-        /* Enhanced styling for sales optimization features */
+        /* Made chatbot visible by default for testing */
         .chat-widget {
             position: fixed;
             bottom: 20px;
@@ -21,7 +21,7 @@
             box-shadow: 0 20px 40px rgba(0,0,0,0.3);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             z-index: 10000;
-            display: none;
+            display: block; /* Changed from none to block for immediate visibility */
             animation: slideUp 0.3s ease-out;
         }
 
@@ -155,21 +155,14 @@
             animation: pulse 2s infinite;
         }
 
+        /* Show chat container by default */
         .chat-container {
-            width: 400px;
-            height: 600px;
-            background: white;
-            border-radius: 25px;
-            box-shadow: 0 25px 80px rgba(0,0,0,0.25);
-            display: none;
+            display: flex;
             flex-direction: column;
-            position: absolute;
-            bottom: 90px;
-            right: 0;
+            height: 100%;
+            background: white;
+            border-radius: 20px;
             overflow: hidden;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255,255,255,0.3);
-            animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         @keyframes slideUp {
@@ -548,10 +541,32 @@
                 font-size: 28px;
             }
         }
+
+        /* Auto-open chat for testing */
+        .chat-widget.open {
+            display: block;
+        }
+
+        .chat-widget.open .chat-container {
+            display: flex;
+        }
     </style>
 </head>
 <body>
-    <div class="chat-widget">
+    <!-- Added demo page content for better testing experience -->
+    <div style="padding: 20px; font-family: Arial, sans-serif;">
+        <h1>Bay Royal International Limited - Demo Page</h1>
+        <p>This is a demo page to test the Bay Royal AI Chatbot. The chatbot should appear in the bottom-right corner.</p>
+        <p>Try asking questions like:</p>
+        <ul>
+            <li>"How are you doing?"</li>
+            <li>"What services do you offer?"</li>
+            <li>"Tell me about your payment solutions"</li>
+            <li>"I need help with payroll"</li>
+        </ul>
+    </div>
+
+    <div class="chat-widget open" id="chatWidget"> <!-- Added 'open' class by default -->
         <button class="chat-toggle" onclick="toggleChat()" id="chatToggle">
             💬
             <div class="notification-badge" id="notificationBadge">1</div>
@@ -582,6 +597,7 @@
     </div>
 
     <script>
+        let isOpen = true; // Changed from false to true
         let messageCount = 0;
         let leadCaptured = false;
         let sessionValue = 0;
@@ -2025,11 +2041,18 @@
             }
         });
 
-        // Enhanced console logging
-        console.log('🏢 Bay Royal Enhanced AI Assistant loaded successfully!');
-        console.log('🧠 Features: Advanced AI responses, sentiment analysis, contextual understanding, smart suggestions');
-        console.log('⌨️ Shortcuts: Ctrl+M to toggle, ESC to close');
-        console.log('🎯 Enhanced with: Personalization, urgency detection, technical integration details');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 Bay Royal AI Assistant Enhanced - Ready!');
+            console.log('💡 Sales Features: Lead scoring, urgency detection, conversion optimization');
+            console.log('🧠 Features: Advanced AI responses, sentiment analysis, contextual understanding, smart suggestions');
+            console.log('⌨️ Shortcuts: Ctrl+M to toggle, ESC to close');
+            console.log('🎯 Enhanced with: Personalization, urgency detection, technical integration details');
+            
+            // Auto-show welcome message
+            setTimeout(() => {
+                addMessage("Hello! I'm your Bay Royal AI Assistant. I'm here to help you with our services and answer any questions you might have. How are you doing today? 😊", 'bot');
+            }, 1000);
+        });
     </script>
 </body>
 </html>
