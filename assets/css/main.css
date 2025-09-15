@@ -50,14 +50,15 @@ Description: Solvior - Business Consulting HTML Template
   39. Section Title CSS
 
 -------------------------------------------------*/
-/* START: Default CSS */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
+
 :root {
   /**
     @Font-Family Declaration
   */
-  --tj-ff-body: 'Lato', sans-serif;
-  --tj-ff-heading: 'Libre Franklin', serif;
+  --tj-ff-body: 'Cinzel', serif; 
+  --tj-ff-heading: 'Cinzel', serif; 
   --tj-ff-fontawesome: "Font Awesome 6 Pro";
   /**
     @Font-weight Declaration
